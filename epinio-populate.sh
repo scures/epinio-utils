@@ -15,14 +15,14 @@ function buildApplications {
 }
 
 function buildServices {
-  epinio service create mongodb-dev test-mongo-$(generate_random_string)
-  epinio service create mongodb-dev test-mongo-$(generate_random_string)
+  epinio service create mongodb-dev sample-mongo-$(generate_random_string)
+  epinio service create mongodb-dev sample-mongo-$(generate_random_string)
   exit 0
 }
 
 function buildConfigurations() {
-  epinio configuration create config-$(generate_random_string) foo bar
-  epinio configuration create config-$(generate_random_string) foo bar
+  epinio configuration create sample-config-$(generate_random_string) foo bar
+  epinio configuration create sample-config-$(generate_random_string) foo bar
   exit 0
 }
 
