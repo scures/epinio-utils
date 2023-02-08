@@ -21,3 +21,4 @@ It will generate 2 resources of each type with the format `resource-[RANDOM-STRI
 ### TODO:
 - [ ] Add more resources
 - [ ] Choose the number of resources to generate
+- [ ] Purge functionality (get all resources by type, batch delete all of them)
